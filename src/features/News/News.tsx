@@ -16,7 +16,7 @@ const News = () => {
           <li key={news.title}>
             <h4>{news.title}</h4>
             <img
-              style={{ width: "450px", height: "150px" }}
+              style={{ width: "450px", height: "120px" }}
               src={news.urlToImage}
               alt={news.title}
             />
